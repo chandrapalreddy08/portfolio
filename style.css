@@ -860,6 +860,10 @@ header ul a:hover{
 
 
 @media (max-aspect-ratio: 16/9){
+    .left img{
+        width : 57px;
+        height : 60px
+    }
     .back-vid{
         width: auto;
         height: 100%;
@@ -867,6 +871,7 @@ header ul a:hover{
 }
 
 @media (min-aspect-ratio: 16/9){
+    
     .back-vid{
         width: 100%;
         height: auto;
