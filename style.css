@@ -359,10 +359,40 @@ header ul a:hover{
 .card:hover{
     box-shadow: 0 0 15px rgb(211, 211, 211);
 }
+/*============ ** ABOUT MY DETAILS ** ================*/
+
+.card:nth-child(2) h4 {
+    color: white;
+    position: absolute; 
+    left:15px 
+}
+.card:nth-child(2) h1 {
+    color : white;
+     position: absolute;
+     top: 55px;
+}
+
+.card.card:nth-child(2) h1:nth-of-type(2) {
+    position: absolute; 
+    top:100px; 
+}
+
+.card.card:nth-child(2) p {
+    color : white;
+     position: absolute;
+      top :120px;
+       font-size: 13px;
+
+}
+
+
+/*============ ** ABOUT MY DETAILS ** ================*/
+
 
 .card:nth-child(3){
     grid-row: span 2;
     height: 83vh;
+    
 }
 
 .card:nth-child(3) p{
@@ -860,6 +890,39 @@ header ul a:hover{
 
 
 @media (max-aspect-ratio: 16/9){
+    
+    .card:nth-child(2) h4 {
+    color: white;
+    position: absolute; 
+    left:15px;
+    font-size: 18px;
+}
+.card:nth-child(2) h1 {
+    color : white;
+     position: absolute;
+     top: 55px;
+     font-size: 23px !important;
+    
+}
+
+
+ .card:nth-child(2) h1:last-of-type{
+    position: absolute; 
+    color: white;
+    top:120px; 
+    font-size: 22px !important;
+}
+
+.card.card:nth-child(2) p {
+    color : white;
+     position: absolute;
+      top :130px;
+       font-size: 20px;
+       text-align-last: justify;
+       line-height: 25px;
+
+}
+
     .left img{
         width : 57px;
         height : 60px
